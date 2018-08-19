@@ -20,7 +20,7 @@ Please install the packages below to display the app in your terminal correctly:
 
 ![Screenshot](screenShots/customerstart.png "Start")
 
-* Upon selecting 'Y', users will see all of the items available for sale. Refer to the next image for an example:
+* Upon selecting 'Y', users will see all the items available for sale. Refer to the next image for an example:
 
 ![Screenshot](screenShots/customerresult.png "Show Results")
 
