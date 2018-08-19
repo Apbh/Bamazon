@@ -1,4 +1,5 @@
 # Bamazon
+***
 ## Introduction
 
 An app created using Node.js and MySQL to display an Amazon-like storefront. Users can interact with the app as a customer, and view the product inventory and make changes to it as a manager.
@@ -39,7 +40,7 @@ ELSE
 
 ![Screenshot](screenShots/customerupdate.png "SQL Update")
 
-
+***
 
 ### Manager View
 Managers using this app will be able to:
@@ -53,34 +54,43 @@ Managers using this app will be able to:
 
 ![Screenshot](screenShots/managerview.png "View all items available for sale")
 
+***
+
 2. VIEW LOW INVENTORY
 *  Selecting this option will list all items with an inventory count lower than five.
 
 ![Screenshot](screenShots/managerlow.png "Low Inventory Count")
+
+***
 
 3. ADD TO INVENTORY
 * The option displays a prompt that will let the manager "add more" of any item currently in the store.
 
 ![Screenshot](screenShots/manageradd.png "Add to Inventory")
 
-UPDATE can be noted in SQL database:
+UPDATE can be noted in the SQL database:
 
 ![Screenshot](screenShots/managerupdate1.png "Manager Update 1")
+
+*** 
 
 4. ADD NEW PRODUCT
 * Selecting this option will allow the manager to add a completely new product to the store.
 
 ![Screenshot](screenShots/managerproduct.png "Add new product")
 
-UPDATE can be noted in SQL database (Lipstick row added to the table):
+UPDATE can be noted in the SQL database (Lipstick row added to the table):
 
-![Screenshot](screenShots/managerproductUpdate.png "Update Database")
+![Screenshot](screenShots/managerupdate2.png "Update Database")
 
+***
 
 ## Technologies Used
 * Node.js
 * MySQL
 * Javascript
+
+***
 
  ## Copyright
  Apbh (2018). All Rights Reserved
