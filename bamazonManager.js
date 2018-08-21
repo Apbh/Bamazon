@@ -161,7 +161,7 @@ function addProduct() {
         {
             name: "productSales",
             type: "input",
-            message: "Please input 0 for a new product:"
+            message: "Please input a 0 for a new product:"
         }
     ]).then(function (answer) {
         connection.query("INSERT into products SET ?", {
