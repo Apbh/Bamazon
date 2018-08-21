@@ -73,6 +73,8 @@ VALUES ("Food", 400, 0);
 INSERT INTO departments(department_name, over_head_costs, product_sales)
 VALUES ("Jewelry", 400, 0);
 
+SELECT departments.department_id, departments.department_name, departments.over_head_costs, SUM(products.product_sales) AS product_sales, (SUM(products.product_sales)-departments.over_head_costs) AS total_profits
+ FROM products LEFT JOIN departments ON products.department_name = departments.department_name GROUP BY products.department_name;
 
 
 SELECT * FROM bamazon_db.products;
